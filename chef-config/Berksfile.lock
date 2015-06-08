@@ -2,6 +2,7 @@ DEPENDENCIES
   apt
   nginx
   postgresql
+  python
 
 GRAPH
   apt (2.7.0)
@@ -24,6 +25,9 @@ GRAPH
     apt (>= 1.9.0)
     build-essential (>= 0.0.0)
     openssl (~> 4.0.0)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
   rsyslog (2.0.0)
   runit (1.6.0)
     packagecloud (>= 0.0.0)

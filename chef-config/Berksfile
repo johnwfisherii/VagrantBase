@@ -1,4 +1,5 @@
 site :opscode
 cookbook "apt"
+cookbook "python"
 cookbook "nginx"
 cookbook "postgresql"
